@@ -1,0 +1,308 @@
+a:hover,a:active,a:link{outline: 0px none;text-decoration: none;}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'); */
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:70%;
+    line-height: 1;
+  }
+}
+
+html, body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #b28f8f;
+  background-position: center center;
+  background-size: cover;
+  /* padding-top: 6em; */
+}
+
+
+/* .nav {
+    padding: 20px 0;
+    background-color: rgb(5, 52, 16);
+    color: white;
+ 
+    letter-spacing: normal;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+ 
+} */
+
+
+.containerChild {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    background-color: #ffffff;
+    min-height: 84vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.containerChildLeft.containerChild {
+    width: 55%;
+    min-height: 84vh;
+    margin-right: 2%;
+    border-radius: 10px;
+    
+}
+
+.containerChildRight.containerChild {
+    width: 35%;
+    margin-left: 2%;
+    margin-top: 0em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row-reverse;
+    /*border: solid 1px #ff0000;*/
+    text-align: center;
+    margin: 0px auto;
+    /* padding-bottom: 8vh; */
+    width: 90%;
+}
+
+.checkJStext {
+    padding-top: 3em;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.smallHeadline {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.rotationTable {
+    display: flex;
+    /* width: 90%; */
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* margin-top: 1.5em; */
+    margin-right: 0; 
+    
+    border-collapse: separate;
+     /* border-bottom: 2px solid black;  */
+    
+    /* border-spacing: 0em; */
+    
+}
+
+.rotVarnameTd {
+    /* width: 30%; */
+}
+
+.rotInputTd {
+    width: 50%;
+    padding-right: 20px;
+    /* border-radius: 10px; */
+}
+
+.quaternionInput {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border: 2px solid rgb(153, 149, 149);
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.2);
+    
+
+    
+}
+
+.slider {
+    display: none;
+    background-color: #eeeeee;
+    border: solid 1px #dddddd;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sliderSegment {
+    background-color: #cccccc;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+.sliderMiddle {
+    height:100%;
+    width:1px;
+    margin: auto;
+    background-color:#777777;
+    position: relative;
+    z-index: 0;
+}
+
+.inputApplyButton {
+    margin-top: 1em;
+}
+
+
+.dropbtn {
+    background-color: #ffffff;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #cccccc;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content div {
+    cursor:pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content div:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.big-title {
+    font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.medium-title {
+    font-size: 2em;
+    margin-top: 1.3em;
+    text-align: center;
+}
+
+.feature-list {
+    font-size: 1.3em;
+    width: 50%;
+    margin:auto;
+    margin-top: 2em;
+
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    width: 70%;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.centering-link {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.button-wrapper {
+  text-align: center;
+}
+
+.checkboxDiv {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.smallCheckboxDiv {
+    display: inline-block;
+    width: 40%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 1px;
+}
+
+.inlineCheckbox {
+    display: inline-block;
+}
+
+.inlineCheckboxLabel {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.secondHline {
+    margin-bottom: 1.4em;
+    background-color: #b28f8f;
+    width: 100%;
+    height: 5px;
+}
+.btn-default {
+    margin: 0 auto;
+    font-weight: 500;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    /* height: 40px; */
+}
+
+
